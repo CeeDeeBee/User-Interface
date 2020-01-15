@@ -64,27 +64,36 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@import url('https://fonts.googleapis.com/css?family=Fruktur&display=swap');
 
 body {
 	margin: 0 10%;
 }
+
 /* nav styles */
+.nav-wrapper {
+	position: fixed;
+	width: 80%;
+	background: ghostwhite;
+	padding: 0 2%;
+	z-index: 5;
+}
+
 nav {
 	display: inline-block;
 	width: 80%;
-	margin: 5% 0 0;
+	margin: 5% 0 2%;
 	transform: translateY(-55%);
 }
 
 nav a {
-	margin-right: 10%;
+	margin-right: 9%;
 	color: silver;
 	text-decoration: none;
 }
 
 .logo {
 	display: inline-block;
-	text-align: right;
 }
 
 /* header section styles */
@@ -122,6 +131,7 @@ h2 {
 }
 
 p {
+	font-family: 'Fruktur', cursive;
 	font-size: 18px;
 	line-height: 1.2;
 }
@@ -133,8 +143,12 @@ p {
 /* Styling for top two sections */
 .top-section {
 	display: inline-block;
-	width: 48%;
-	margin: 0 1.5% 4% 0;
+	width: 49%;
+	margin-bottom: 4%;
+}
+
+#features {
+	margin-right: 1.5%;
 }
 
 /* Styling for middle content image */
