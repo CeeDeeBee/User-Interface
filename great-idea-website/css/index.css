@@ -72,11 +72,14 @@ body {
 nav {
 	display: inline-block;
 	width: 80%;
-	margin: 5% 0;
+	margin: 5% 0 0;
+	transform: translateY(-55%);
 }
 
 nav a {
 	margin-right: 10%;
+	color: silver;
+	text-decoration: none;
 }
 
 .logo {
@@ -86,20 +89,29 @@ nav a {
 
 /* header section styles */
 .header-section {
-	margin: 5% 0;
+	display: inline-block;
+	width: 100%;
+	margin: 3% 0;
+	border-bottom: 1px solid black;
+	padding: 6% 0;
+}
+.header-section div {
+	display: inline-block;
+	text-align: center;
+	margin: 0 12%;
+	transform: translateY(-20%);
 }
 
 .header-section h1 {
-	display: inline-block;
-	text-align: center;
-	font-size: 80px;
-	margin: 5% 10%;
-}
-
-.header-section img {
-	align: right;
+	font-size: 85px;
 }
 
 .header-section button {
-	
+	padding: 2% 15%;
+	font-size: 17px;
+	border: 1px solid black;
+}
+
+.header-section img {
+	width: 40%;
 }
