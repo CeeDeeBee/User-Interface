@@ -64,3 +64,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+body {
+	margin: 0 10%;
+}
+/* nav styles */
+nav {
+	display: inline-block;
+	width: 80%;
+	margin: 5% 0;
+}
+
+nav a {
+	margin-right: 10%;
+}
+
+.logo {
+	display: inline-block;
+	text-align: right;
+}
+
+/* header section styles */
+.header-section {
+	margin: 5% 0;
+}
+
+.header-section h1 {
+	display: inline-block;
+	text-align: center;
+	font-size: 80px;
+	margin: 5% 10%;
+}
+
+.header-section img {
+	align: right;
+}
+
+.header-section button {
+	
+}
