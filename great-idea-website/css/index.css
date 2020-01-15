@@ -64,3 +64,120 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+@import url('https://fonts.googleapis.com/css?family=Fruktur&display=swap');
+
+body {
+	margin: 0 10%;
+}
+
+/* nav styles */
+.nav-wrapper {
+	position: fixed;
+	width: 80%;
+	background: ghostwhite;
+	padding: 0 2%;
+	z-index: 5;
+}
+
+nav {
+	display: inline-block;
+	width: 80%;
+	margin: 5% 0 2%;
+	transform: translateY(-55%);
+}
+
+nav a {
+	margin-right: 9%;
+	color: silver;
+	text-decoration: none;
+}
+
+.logo {
+	display: inline-block;
+}
+
+/* header section styles */
+.header-section {
+	display: inline-block;
+	width: 100%;
+	margin: 3% 0;
+	border-bottom: 1px solid black;
+	padding: 6% 0;
+}
+.header-section div {
+	display: inline-block;
+	text-align: center;
+	margin: 0 12%;
+	transform: translateY(-20%);
+}
+
+.header-section h1 {
+	font-size: 85px;
+}
+
+.header-section button {
+	padding: 2% 15%;
+	font-size: 17px;
+	border: 1px solid black;
+}
+
+.header-section img {
+	width: 40%;
+}
+
+/* Styling for content area */
+h2 {
+	font-size: 20px;
+}
+
+p {
+	font-family: 'Fruktur', cursive;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.content {
+	border-bottom: 1px solid black;
+}
+
+/* Styling for top two sections */
+.top-section {
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 4%;
+}
+
+#features {
+	margin-right: 1.5%;
+}
+
+/* Styling for middle content image */
+.middle-img {
+	width: 100%;
+}
+
+/* Styling for bottom three sections */
+.bottom-section {
+	display: inline-block;
+	width: 31.6%;
+	margin: 4% 0;
+}
+
+#product {
+	margin: 4% 2.2%;
+}
+
+/* Styling for contact section */
+#contact {
+	margin: 4% 0;
+}
+
+#contact a {
+	font-size: 18px;
+}
+
+/* Styling for footer */
+footer {
+	margin-bottom: 10%;
+	text-align: center;
+}
