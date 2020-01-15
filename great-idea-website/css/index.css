@@ -115,3 +115,55 @@ nav a {
 .header-section img {
 	width: 40%;
 }
+
+/* Styling for content area */
+h2 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.content {
+	border-bottom: 1px solid black;
+}
+
+/* Styling for top two sections */
+.top-section {
+	display: inline-block;
+	width: 48%;
+	margin: 0 1.5% 4% 0;
+}
+
+/* Styling for middle content image */
+.middle-img {
+	width: 100%;
+}
+
+/* Styling for bottom three sections */
+.bottom-section {
+	display: inline-block;
+	width: 31.6%;
+	margin: 4% 0;
+}
+
+#product {
+	margin: 4% 2.2%;
+}
+
+/* Styling for contact section */
+#contact {
+	margin: 4% 0;
+}
+
+#contact a {
+	font-size: 18px;
+}
+
+/* Styling for footer */
+footer {
+	margin-bottom: 10%;
+	text-align: center;
+}
